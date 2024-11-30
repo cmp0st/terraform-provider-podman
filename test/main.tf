@@ -11,4 +11,8 @@ provider "podman" {}
 resource "podman_secret" "example" {
   name   = "foo"
   secret = "bar"
+  driver = "file"
+  labels = {
+    "foo" = "bar"
+  }
 }
