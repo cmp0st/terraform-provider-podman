@@ -32,7 +32,6 @@ jobs:
             btrfs-progs \
             crun \
             git \
-            golang-go \
             go-md2man \
             iptables \
             libassuan-dev \
@@ -48,7 +47,7 @@ jobs:
             libselinux1-dev \
             libsystemd-dev \
             make \
-            netavark \
+            containernetworking-plugins \
             pkg-config \
             uidmap
       - run: go mod download
