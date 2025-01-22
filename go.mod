@@ -3,7 +3,7 @@ module github.com/cmp0st/terraform-provider-podman
 go 1.22.7
 
 require (
-	github.com/containers/podman/v5 v5.3.1
+	github.com/containers/podman/v5 v5.3.2
 	github.com/hashicorp/terraform-plugin-framework v1.13.0
 	github.com/hashicorp/terraform-plugin-go v0.25.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0
@@ -31,13 +31,13 @@ require (
 	github.com/containerd/platforms v0.2.1 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.15.1 // indirect
 	github.com/containerd/typeurl/v2 v2.2.0 // indirect
-	github.com/containers/buildah v1.38.0 // indirect
-	github.com/containers/common v0.61.0 // indirect
-	github.com/containers/image/v5 v5.33.0 // indirect
+	github.com/containers/buildah v1.38.1 // indirect
+	github.com/containers/common v0.61.1 // indirect
+	github.com/containers/image/v5 v5.33.1 // indirect
 	github.com/containers/libtrust v0.0.0-20230121012942-c1716e8a8d01 // indirect
 	github.com/containers/ocicrypt v1.2.0 // indirect
 	github.com/containers/psgo v1.9.0 // indirect
-	github.com/containers/storage v1.56.0 // indirect
+	github.com/containers/storage v1.56.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.1-0.20231103132048-7d375ecc2b09 // indirect
 	github.com/cyberphone/json-canonicalization v0.0.0-20231217050601-ba74d44ecf5f // indirect
 	github.com/cyphar/filepath-securejoin v0.3.4 // indirect
